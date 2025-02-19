@@ -1,8 +1,7 @@
 ---
 - hosts: all
-  become: true
-    
-    tasks:
+  become: true 
+  tasks:
     - name: Stop Apache
       service:
         name: apache2
